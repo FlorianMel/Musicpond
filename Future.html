@@ -18,26 +18,41 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
 		<link rel="stylesheet" type="text/css" href="index.css">
+		<link rel="stylesheet" type="text/css" href="dropdown.css">
+		<link rel="stylesheet" href="style.css" type="text/css" media="screen">
 	</head>
 <body>
+ <img src="music.png" class="superbg" />
+ <script src="jquery-3.2.1.min.js" type="text/javascript"></script>
+ <script src="background.js" type="text/javascript"></script>
 	<header>
-			<div class="container">
-				<div class="col-md-2"><img id="trois" src="menu.png"></div>
-				<div class="col-md-2"><img id="logo" src="logo+nom.png"></div>
-				<nav class="col-md-2">
-					<ul id="menu">
-						<li><a href="" target="_blank">Connexion</a></li>
-					</ul>
-					<img id="panier" src="user.png">
-				</nav>
-			</div
-		</header>
-	<body>
+		<ul>
+		<div id="mySidenav" class="sidenav">
+		  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		  <a href="Future.html">Accueil</a>
+		  <a href="#">Historique</a>
+		  <a href="Future1.html">Top liste</a>
+		  <a href="#">Favori</a>
+		</div>
+		<li><span style="font-size:30px;cursor:pointer;color:white" onclick="openNav()">&#9776;</span></li>
+		<li><a href="Future.html"><img id="logo" src="logo+nom.png"></a></li>
+		<li><a href="Future2.html"><img id="user" src="user.png"></a></li>
+
+
+
+		</ul>
+		<script>
+		function openNav() {
+		    document.getElementById("mySidenav").style.width = "250px";
+		}
+
+		function closeNav() {
+		    document.getElementById("mySidenav").style.width = "0";
+		}
+		</script>
 		<div id="body">
-					<h2>Top liste</h2>
-					<img id="icon" src="list.png">
+					<a href="Future1.html"><h2>Top liste</h2></a>
 			<div class="container">
 			  <h2></h2>
 			  <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -127,7 +142,6 @@
 		    </a>
 		  </div>
 		</div>
-			<hr>
 			  <h2>Rap</h2><img id="icon" src="rap.png">
 				<div class="container">
 				  <h2></h2>
@@ -187,12 +201,11 @@
 				    <!-- Wrapper for slides -->
 				    <div class="carousel-inner">
 				      <div class="item active">
-				        <iframe width="280" height="158" src="https://www.youtube.com/embed/5qm8PH4xAss" frameborder="0" allowfullscreen></iframe>
 				        <iframe width="280" height="158" src="https://www.youtube.com/embed/gG_dA32oH44" frameborder="0" allowfullscreen></iframe>
-				        <iframe width="280" height="158" src="https://www.youtube.com/embed/9PODnRarD78" frameborder="0" allowfullscreen></iframe>
+				        <iframe width="280" height="158" src="https://www.youtube.com/embed/5qm8PH4xAss" frameborder="0" allowfullscreen></iframe>
 				        <iframe width="280" height="158" src="https://www.youtube.com/embed/c7tOAGY59uQ" frameborder="0" allowfullscreen></iframe>
+				        <iframe width="280" height="158" src="https://www.youtube.com/embed/9PODnRarD78" frameborder="0" allowfullscreen></iframe>
 				      </div>
-
 				      <div class="item">
 				        <iframe width="280" height="158" src="https://www.youtube.com/embed/3gOHvDP_vCs" frameborder="0" allowfullscreen></iframe>
 				        <iframe width="280" height="158" src="https://www.youtube.com/embed/Zi_XLOBDo_Y" frameborder="0" allowfullscreen></iframe>
@@ -263,22 +276,46 @@
 				    </a>
 				  </div>
 				</div>
+			<br>
 		</body>
-	<footer>
-		<div id="end" class="container">
-				<nav class="col-md-8">
-					<ul class="Icone">
-						<text>Réseaux sociaux :</text>
-						<a href="https://www.facebook.com/nba/?fref=ts" target="_blank">
-						<img border="0" alt="W3Schools" src="fb.png" width="35" height="35">
-						<a href="https://twitter.com/nba" target="_blank">
-						<img border="0" alt="W3Schools" src="Twitter.png" width="35" height="35">
-						<a href="https://www.instagram.com/nba/" target="_blank">
-						<img border="0" alt="W3Schools" src="insta.png" width="35" height="35">
-						<a href="https://www.youtube.com/user/NBA?hl=fr&gl=FR" target="_blank">
-						<img border="0" alt="W3Schools" src="YT.png" width="35" height="35">
-
-					</ul>
-				</nav>
-			</div>
-	</footer>
+		<footer>
+	       <div id="footer_general">
+	           <div class="footer_container">
+	               <div class="footer_link">
+	                   <div class="footer_link_top">
+	                       <a>A propos</a>
+	                       <a>Quoi de neuf</a>
+	                       <a>Centre d'aide</a>
+	                       <a>Emplois</a>
+	                       <a>API</a>
+	                       <a>Partenaires</a>
+	                   </div>
+	                   <div class="footer_link_bot">
+	                       <a>Vie privée & Cookies</a>
+	                       <a>Conditions générales d'utilisation</a>
+	                       <a>Blog</a>
+	                       <a>Filtre parental</a>
+	                       <a>Toutes les vidéos</a>
+	                       <a>Localisation</a>
+	                   </div>
+	               </div>
+	           </div>
+	       </div>
+	        <div id="end">
+	           <ul class="Icone">
+	               <div class="footer_copyright">
+	                   <span>
+	                       © 2017 Music Pond - Designé avec DuoFlo à Paris, France
+	                   </span>
+	               </div>
+	               <div class="footer_socialList">
+	                    <a href="https://www.facebook.com/nba/?fref=ts" target="_blank">
+	                    <img border="0" alt="W3Schools" src="facebook-logo.png" width="35" height="35">
+	                    <a href="https://twitter.com/nba" target="_blank">
+	                    <img border="0" alt="W3Schools" src="Twitter.png" width="35" height="35">
+	                    <a href="https://www.instagram.com/nba/" target="_blank">
+	                    <img border="0" alt="W3Schools" src="instagram.png" width="35" height="35">
+	               </div>
+	           </ul>
+	       </div>
+	    </footer>

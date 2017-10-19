@@ -1,0 +1,1154 @@
+/* Reset */
+@import url(//codepen.io/chrisdothtml/pen/ojLzJK.css);
+/* Main Styles */
+.button {
+  display: block;
+  background-color: #0099cc;
+  width: 30%;
+  height: 40px;
+  line-height: 40px;
+  margin-top:530px;
+  margin-left: 2%;
+  color: #fff;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 5px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+  -webkit-transition: all 0.25s cubic-bezier(0.31, -0.105, 0.43, 1.4);
+  transition: all 0.25s cubic-bezier(0.31, -0.105, 0.43, 1.4);
+}
+
+
+.button span,
+.button .icon {
+  display: block;
+  height: 100%;
+  text-align: center;
+  position: absolute;
+  top: 0;
+}
+.button span {
+  width: 72%;
+  line-height: inherit;
+  font-size: 22px;
+  text-transform: uppercase;
+  left: 0;
+  -webkit-transition: all 0.25s cubic-bezier(0.31, -0.105, 0.43, 1.4);
+  transition: all 0.25s cubic-bezier(0.31, -0.105, 0.43, 1.4);
+}
+.button span:after {
+  content: '';
+  background-color: #ffffff;
+  width: 2px;
+  height: 70%;
+  position: absolute;
+  top: 15%;
+  right: -1px;
+}
+.button .icon {
+  width: 28%;
+  right: 0;
+  -webkit-transition: all 0.25s cubic-bezier(0.31, -0.105, 0.43, 1.4);
+  transition: all 0.25s cubic-bezier(0.31, -0.105, 0.43, 1.4);
+}
+.button .icon .fa {
+  font-size: 30px;
+  vertical-align: middle;
+  -webkit-transition: all 0.25s cubic-bezier(0.31, -0.105, 0.43, 1.4), height 0.25s ease;
+  transition: all 0.25s cubic-bezier(0.31, -0.105, 0.43, 1.4), height 0.25s ease;
+}
+.button .icon .fa-remove {
+  height: 36px;
+}
+.button .icon .fa-check {
+  display: none;
+}
+.button.success span, .button:hover span {
+  left: -72%;
+  opacity: 0;
+}
+.button.success .icon, .button:hover .icon {
+  width: 100%;
+}
+.button.success .icon .fa, .button:hover .icon .fa {
+  font-size: 32px;
+}
+.button.success {
+  background-color: #27ae60;
+}
+.button.success .icon .fa-remove {
+  display: none;
+}
+.button.success .icon .fa-check {
+  display: inline-block;
+}
+.button:hover {
+  opacity: .9;
+}
+.button:hover .icon .fa-remove {
+  height: 46px;
+}
+.button:active {
+  opacity: 1;
+}
+
+.button1 {
+  display: block;
+  background-color: #C03000;
+  width: 30%;
+  height: 40px;
+  line-height: 40px;
+  margin-top:530px;
+  margin-left: 37%;
+  color: #fffff;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 5px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+  -webkit-transition: all 0.25s cubic-bezier(0.31, -0.105, 0.43, 1.4);
+  transition: all 0.25s cubic-bezier(0.31, -0.105, 0.43, 1.4);
+}
+
+.button1 span,
+.button1 .icon {
+  display: block;
+  height: 100%;
+  text-align: center;
+  position: absolute;
+  top: 0;
+}
+.button1 span {
+  width: 72%;
+  line-height: inherit;
+  font-size: 22px;
+  color : white;
+  text-transform: uppercase;
+  left: 0;
+  -webkit-transition: all 0.25s cubic-bezier(0.31, -0.105, 0.43, 1.4);
+  transition: all 0.25s cubic-bezier(0.31, -0.105, 0.43, 1.4);
+}
+.button1 span:after {
+  content: '';
+  background-color: #ffffff;
+  width: 2px;
+  height: 70%;
+  position: absolute;
+  top: 15%;
+  right: -1px;
+}
+.button1 .icon {
+  width: 28%;
+  right: 0;
+  -webkit-transition: all 0.25s cubic-bezier(0.31, -0.105, 0.43, 1.4);
+  transition: all 0.25s cubic-bezier(0.31, -0.105, 0.43, 1.4);
+}
+.button1 .icon .fa {
+  font-size: 30px;
+  vertical-align: middle;
+  -webkit-transition: all 0.25s cubic-bezier(0.31, -0.105, 0.43, 1.4), height 0.25s ease;
+  transition: all 0.25s cubic-bezier(0.31, -0.105, 0.43, 1.4), height 0.25s ease;
+}
+.button1 .icon .fa-remove {
+  height: 36px;
+}
+.button1 .icon .fa-check {
+  display: none;
+}
+.button1.success span, .button1:hover span {
+  left: -72%;
+  opacity: 0;
+}
+.button1.success .icon, .button1:hover .icon {
+  width: 100%;
+}
+.button1.success .icon .fa, .button1:hover .icon .fa {
+  font-size: 32px;
+}
+.button1.success {
+  background-color: #ffffff;
+}
+.button1.success .icon .fa-remove {
+  display: none;
+}
+.button1.success .icon .fa-check {
+  display: inline-block;
+}
+.button1:hover {
+  opacity: .9;
+}
+.button1:hover .icon .fa-remove {
+  height: 46px;
+}
+.button1:active {
+  opacity: 1;
+}
+
+.button2 {
+  display: block;
+  background-color: #C03000;
+  width: 30%;
+  height: 40px;
+  line-height: 40px;
+  margin-top: 1000px;
+  margin-left: 37%;
+  color: #fffff;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 5px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+  -webkit-transition: all 0.25s cubic-bezier(0.31, -0.105, 0.43, 1.4);
+  transition: all 0.25s cubic-bezier(0.31, -0.105, 0.43, 1.4);
+}
+
+.button2 span,
+.button2 .icon {
+  display: block;
+  height: 100%;
+  text-align: center;
+  position: absolute;
+  top: 0;
+}
+.button2 span {
+  width: 72%;
+  line-height: inherit;
+  font-size: 22px;
+  color : white;
+  text-transform: uppercase;
+  left: 0;
+  -webkit-transition: all 0.25s cubic-bezier(0.31, -0.105, 0.43, 1.4);
+  transition: all 0.25s cubic-bezier(0.31, -0.105, 0.43, 1.4);
+}
+.button2 span:after {
+  content: '';
+  background-color: #ffffff;
+  width: 2px;
+  height: 70%;
+  position: absolute;
+  top: 15%;
+  right: -1px;
+}
+.button2 .icon {
+  width: 28%;
+  right: 0;
+  -webkit-transition: all 0.25s cubic-bezier(0.31, -0.105, 0.43, 1.4);
+  transition: all 0.25s cubic-bezier(0.31, -0.105, 0.43, 1.4);
+}
+.button2 .icon .fa {
+  font-size: 30px;
+  vertical-align: middle;
+  -webkit-transition: all 0.25s cubic-bezier(0.31, -0.105, 0.43, 1.4), height 0.25s ease;
+  transition: all 0.25s cubic-bezier(0.31, -0.105, 0.43, 1.4), height 0.25s ease;
+}
+.button2 .icon .fa-remove {
+  height: 36px;
+}
+.button2 .icon .fa-check {
+  display: none;
+}
+.button2.success span, .button2:hover span {
+  left: -72%;
+  opacity: 0;
+}
+.button2.success .icon, .button2:hover .icon {
+  width: 100%;
+}
+.button2.success .icon .fa, .button2:hover .icon .fa {
+  font-size: 32px;
+}
+.button2.success {
+  background-color: #ffffff;
+}
+.button2.success .icon .fa-remove {
+  display: none;
+}
+.button2.success .icon .fa-check {
+  display: inline-block;
+}
+.button2:hover {
+  opacity: .9;
+}
+.button2:hover .icon .fa-remove {
+  height: 46px;
+}
+.button2:active {
+  opacity: 1;
+}
+
+.button3 {
+  display: block;
+  background-color: #0099cc;
+  width: 30%;
+  height: 40px;
+  line-height: 40px;
+  margin-top:1000px;
+  margin-left: 2%;
+  color: #fff;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 5px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+  -webkit-transition: all 0.25s cubic-bezier(0.31, -0.105, 0.43, 1.4);
+  transition: all 0.25s cubic-bezier(0.31, -0.105, 0.43, 1.4);
+}
+
+
+.button3 span,
+.button3 .icon {
+  display: block;
+  height: 100%;
+  text-align: center;
+  position: absolute;
+  top: 0;
+}
+.button3 span {
+  width: 72%;
+  line-height: inherit;
+  font-size: 22px;
+  text-transform: uppercase;
+  left: 0;
+  -webkit-transition: all 0.25s cubic-bezier(0.31, -0.105, 0.43, 1.4);
+  transition: all 0.25s cubic-bezier(0.31, -0.105, 0.43, 1.4);
+}
+.button3 span:after {
+  content: '';
+  background-color: #ffffff;
+  width: 2px;
+  height: 70%;
+  position: absolute;
+  top: 15%;
+  right: -1px;
+}
+.button3 .icon {
+  width: 28%;
+  right: 0;
+  -webkit-transition: all 0.25s cubic-bezier(0.31, -0.105, 0.43, 1.4);
+  transition: all 0.25s cubic-bezier(0.31, -0.105, 0.43, 1.4);
+}
+.button3 .icon .fa {
+  font-size: 30px;
+  vertical-align: middle;
+  -webkit-transition: all 0.25s cubic-bezier(0.31, -0.105, 0.43, 1.4), height 0.25s ease;
+  transition: all 0.25s cubic-bezier(0.31, -0.105, 0.43, 1.4), height 0.25s ease;
+}
+.button3 .icon .fa-remove {
+  height: 36px;
+}
+.button3 .icon .fa-check {
+  display: none;
+}
+.button3.success span, .button3:hover span {
+  left: -72%;
+  opacity: 0;
+}
+.button3.success .icon, .button3:hover .icon {
+  width: 100%;
+}
+.button3.success .icon .fa, .button3:hover .icon .fa {
+  font-size: 32px;
+}
+.button3.success {
+  background-color: #27ae60;
+}
+.button3.success .icon .fa-remove {
+  display: none;
+}
+.button3.success .icon .fa-check {
+  display: inline-block;
+}
+.button3:hover {
+  opacity: .9;
+}
+.button3:hover .icon .fa-remove {
+  height: 46px;
+}
+.button3:active {
+  opacity: 1;
+}
+
+.button4 {
+  display: block;
+  background-color: #0099cc;
+  width: 30%;
+  height: 40px;
+  line-height: 40px;
+  margin-top:1470px;
+  margin-left: 2%;
+  color: #fff;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 5px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+  -webkit-transition: all 0.25s cubic-bezier(0.31, -0.105, 0.43, 1.4);
+  transition: all 0.25s cubic-bezier(0.31, -0.105, 0.43, 1.4);
+}
+
+
+.button4 span,
+.button4 .icon {
+  display: block;
+  height: 100%;
+  text-align: center;
+  position: absolute;
+  top: 0;
+}
+.button4 span {
+  width: 72%;
+  line-height: inherit;
+  font-size: 22px;
+  text-transform: uppercase;
+  left: 0;
+  -webkit-transition: all 0.25s cubic-bezier(0.31, -0.105, 0.43, 1.4);
+  transition: all 0.25s cubic-bezier(0.31, -0.105, 0.43, 1.4);
+}
+.button4 span:after {
+  content: '';
+  background-color: #ffffff;
+  width: 2px;
+  height: 70%;
+  position: absolute;
+  top: 15%;
+  right: -1px;
+}
+.button4 .icon {
+  width: 28%;
+  right: 0;
+  -webkit-transition: all 0.25s cubic-bezier(0.31, -0.105, 0.43, 1.4);
+  transition: all 0.25s cubic-bezier(0.31, -0.105, 0.43, 1.4);
+}
+.button4 .icon .fa {
+  font-size: 30px;
+  vertical-align: middle;
+  -webkit-transition: all 0.25s cubic-bezier(0.31, -0.105, 0.43, 1.4), height 0.25s ease;
+  transition: all 0.25s cubic-bezier(0.31, -0.105, 0.43, 1.4), height 0.25s ease;
+}
+.button4 .icon .fa-remove {
+  height: 36px;
+}
+.button4 .icon .fa-check {
+  display: none;
+}
+.button4.success span, .button4:hover span {
+  left: -72%;
+  opacity: 0;
+}
+.button4.success .icon, .button4:hover .icon {
+  width: 100%;
+}
+.button4.success .icon .fa, .button4:hover .icon .fa {
+  font-size: 32px;
+}
+.button4.success {
+  background-color: #27ae60;
+}
+.button4.success .icon .fa-remove {
+  display: none;
+}
+.button4.success .icon .fa-check {
+  display: inline-block;
+}
+.button4:hover {
+  opacity: .9;
+}
+.button4:hover .icon .fa-remove {
+  height: 46px;
+}
+.button4:active {
+  opacity: 1;
+}
+
+.button5 {
+  display: block;
+  background-color: #C03000;
+  width: 30%;
+  height: 40px;
+  line-height: 40px;
+  margin-top: 1470px;
+  margin-left: 37%;
+  color: #fffff;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 5px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+  -webkit-transition: all 0.25s cubic-bezier(0.31, -0.105, 0.43, 1.4);
+  transition: all 0.25s cubic-bezier(0.31, -0.105, 0.43, 1.4);
+}
+
+.button5 span,
+.button5 .icon {
+  display: block;
+  height: 100%;
+  text-align: center;
+  position: absolute;
+  top: 0;
+}
+.button5 span {
+  width: 72%;
+  line-height: inherit;
+  font-size: 22px;
+  color : white;
+  text-transform: uppercase;
+  left: 0;
+  -webkit-transition: all 0.25s cubic-bezier(0.31, -0.105, 0.43, 1.4);
+  transition: all 0.25s cubic-bezier(0.31, -0.105, 0.43, 1.4);
+}
+.button5 span:after {
+  content: '';
+  background-color: #ffffff;
+  width: 2px;
+  height: 70%;
+  position: absolute;
+  top: 15%;
+  right: -1px;
+}
+.button5 .icon {
+  width: 28%;
+  right: 0;
+  -webkit-transition: all 0.25s cubic-bezier(0.31, -0.105, 0.43, 1.4);
+  transition: all 0.25s cubic-bezier(0.31, -0.105, 0.43, 1.4);
+}
+.button5 .icon .fa {
+  font-size: 30px;
+  vertical-align: middle;
+  -webkit-transition: all 0.25s cubic-bezier(0.31, -0.105, 0.43, 1.4), height 0.25s ease;
+  transition: all 0.25s cubic-bezier(0.31, -0.105, 0.43, 1.4), height 0.25s ease;
+}
+.button5 .icon .fa-remove {
+  height: 36px;
+}
+.button5 .icon .fa-check {
+  display: none;
+}
+.button5.success span, .button5:hover span {
+  left: -72%;
+  opacity: 0;
+}
+.button5.success .icon, .button5:hover .icon {
+  width: 100%;
+}
+.button5.success .icon .fa, .button5:hover .icon .fa {
+  font-size: 32px;
+}
+.button5.success {
+  background-color: #ffffff;
+}
+.button5.success .icon .fa-remove {
+  display: none;
+}
+.button5.success .icon .fa-check {
+  display: inline-block;
+}
+.button5:hover {
+  opacity: .9;
+}
+.button5:hover .icon .fa-remove {
+  height: 46px;
+}
+.button5:active {
+  opacity: 1;
+}
+
+.button6 {
+  display: block;
+  background-color: #0099cc;
+  width: 30%;
+  height: 40px;
+  line-height: 40px;
+  margin-top:1940px;
+  margin-left: 2%;
+  color: #fff;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 5px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+  -webkit-transition: all 0.25s cubic-bezier(0.31, -0.105, 0.43, 1.4);
+  transition: all 0.25s cubic-bezier(0.31, -0.105, 0.43, 1.4);
+}
+
+
+.button6 span,
+.button6 .icon {
+  display: block;
+  height: 100%;
+  text-align: center;
+  position: absolute;
+  top: 0;
+}
+.button6 span {
+  width: 72%;
+  line-height: inherit;
+  font-size: 22px;
+  text-transform: uppercase;
+  left: 0;
+  -webkit-transition: all 0.25s cubic-bezier(0.31, -0.105, 0.43, 1.4);
+  transition: all 0.25s cubic-bezier(0.31, -0.105, 0.43, 1.4);
+}
+.button6 span:after {
+  content: '';
+  background-color: #ffffff;
+  width: 2px;
+  height: 70%;
+  position: absolute;
+  top: 15%;
+  right: -1px;
+}
+.button6 .icon {
+  width: 28%;
+  right: 0;
+  -webkit-transition: all 0.25s cubic-bezier(0.31, -0.105, 0.43, 1.4);
+  transition: all 0.25s cubic-bezier(0.31, -0.105, 0.43, 1.4);
+}
+.button6 .icon .fa {
+  font-size: 30px;
+  vertical-align: middle;
+  -webkit-transition: all 0.25s cubic-bezier(0.31, -0.105, 0.43, 1.4), height 0.25s ease;
+  transition: all 0.25s cubic-bezier(0.31, -0.105, 0.43, 1.4), height 0.25s ease;
+}
+.button6 .icon .fa-remove {
+  height: 36px;
+}
+.button6 .icon .fa-check {
+  display: none;
+}
+.button6.success span, .button6:hover span {
+  left: -72%;
+  opacity: 0;
+}
+.button6.success .icon, .button6:hover .icon {
+  width: 100%;
+}
+.button6.success .icon .fa, .button6:hover .icon .fa {
+  font-size: 32px;
+}
+.button6.success {
+  background-color: #27ae60;
+}
+.button6.success .icon .fa-remove {
+  display: none;
+}
+.button6.success .icon .fa-check {
+  display: inline-block;
+}
+.button6:hover {
+  opacity: .9;
+}
+.button6:hover .icon .fa-remove {
+  height: 46px;
+}
+.button6:active {
+  opacity: 1;
+}
+
+.button7 {
+  display: block;
+  background-color: #C03000;
+  width: 30%;
+  height: 40px;
+  line-height: 40px;
+  margin-top: 2410px;
+  margin-left: 37%;
+  color: #fffff;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 5px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+  -webkit-transition: all 0.25s cubic-bezier(0.31, -0.105, 0.43, 1.4);
+  transition: all 0.25s cubic-bezier(0.31, -0.105, 0.43, 1.4);
+}
+
+.button7 span,
+.button7 .icon {
+  display: block;
+  height: 100%;
+  text-align: center;
+  position: absolute;
+  top: 0;
+}
+.button7 span {
+  width: 72%;
+  line-height: inherit;
+  font-size: 22px;
+  color : white;
+  text-transform: uppercase;
+  left: 0;
+  -webkit-transition: all 0.25s cubic-bezier(0.31, -0.105, 0.43, 1.4);
+  transition: all 0.25s cubic-bezier(0.31, -0.105, 0.43, 1.4);
+}
+.button7 span:after {
+  content: '';
+  background-color: #ffffff;
+  width: 2px;
+  height: 70%;
+  position: absolute;
+  top: 15%;
+  right: -1px;
+}
+.button7 .icon {
+  width: 28%;
+  right: 0;
+  -webkit-transition: all 0.25s cubic-bezier(0.31, -0.105, 0.43, 1.4);
+  transition: all 0.25s cubic-bezier(0.31, -0.105, 0.43, 1.4);
+}
+.button7 .icon .fa {
+  font-size: 30px;
+  vertical-align: middle;
+  -webkit-transition: all 0.25s cubic-bezier(0.31, -0.105, 0.43, 1.4), height 0.25s ease;
+  transition: all 0.25s cubic-bezier(0.31, -0.105, 0.43, 1.4), height 0.25s ease;
+}
+.button7 .icon .fa-remove {
+  height: 36px;
+}
+.button7 .icon .fa-check {
+  display: none;
+}
+.button7.success span, .button7:hover span {
+  left: -72%;
+  opacity: 0;
+}
+.button7.success .icon, .button7:hover .icon {
+  width: 100%;
+}
+.button7.success .icon .fa, .button7:hover .icon .fa {
+  font-size: 32px;
+}
+.button7.success {
+  background-color: #ffffff;
+}
+.button7.success .icon .fa-remove {
+  display: none;
+}
+.button7.success .icon .fa-check {
+  display: inline-block;
+}
+.button7:hover {
+  opacity: .9;
+}
+.button7:hover .icon .fa-remove {
+  height: 46px;
+}
+.button7:active {
+  opacity: 1;
+}
+
+.button8 {
+  display: block;
+  background-color: #0099cc;
+  width: 30%;
+  height: 40px;
+  line-height: 40px;
+  margin-top:2410px;
+  margin-left: 2%;
+  color: #fff;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 5px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+  -webkit-transition: all 0.25s cubic-bezier(0.31, -0.105, 0.43, 1.4);
+  transition: all 0.25s cubic-bezier(0.31, -0.105, 0.43, 1.4);
+}
+
+
+.button8 span,
+.button8 .icon {
+  display: block;
+  height: 100%;
+  text-align: center;
+  position: absolute;
+  top: 0;
+}
+.button8 span {
+  width: 72%;
+  line-height: inherit;
+  font-size: 22px;
+  text-transform: uppercase;
+  left: 0;
+  -webkit-transition: all 0.25s cubic-bezier(0.31, -0.105, 0.43, 1.4);
+  transition: all 0.25s cubic-bezier(0.31, -0.105, 0.43, 1.4);
+}
+.button8 span:after {
+  content: '';
+  background-color: #ffffff;
+  width: 2px;
+  height: 70%;
+  position: absolute;
+  top: 15%;
+  right: -1px;
+}
+.button8 .icon {
+  width: 28%;
+  right: 0;
+  -webkit-transition: all 0.25s cubic-bezier(0.31, -0.105, 0.43, 1.4);
+  transition: all 0.25s cubic-bezier(0.31, -0.105, 0.43, 1.4);
+}
+.button8 .icon .fa {
+  font-size: 30px;
+  vertical-align: middle;
+  -webkit-transition: all 0.25s cubic-bezier(0.31, -0.105, 0.43, 1.4), height 0.25s ease;
+  transition: all 0.25s cubic-bezier(0.31, -0.105, 0.43, 1.4), height 0.25s ease;
+}
+.button8 .icon .fa-remove {
+  height: 36px;
+}
+.button8 .icon .fa-check {
+  display: none;
+}
+.button8.success span, .button8:hover span {
+  left: -72%;
+  opacity: 0;
+}
+.button8.success .icon, .button8:hover .icon {
+  width: 100%;
+}
+.button8.success .icon .fa, .button8:hover .icon .fa {
+  font-size: 32px;
+}
+.button8.success {
+  background-color: #27ae60;
+}
+.button8.success .icon .fa-remove {
+  display: none;
+}
+.button8.success .icon .fa-check {
+  display: inline-block;
+}
+.button8:hover {
+  opacity: .9;
+}
+.button8:hover .icon .fa-remove {
+  height: 46px;
+}
+.button8:active {
+  opacity: 1;
+}
+
+.button9 {
+  display: block;
+  background-color: #C03000;
+  width: 30%;
+  height: 40px;
+  line-height: 40px;
+  margin-top: 2890px;
+  margin-left: 37%;
+  color: #fffff;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 5px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+  -webkit-transition: all 0.25s cubic-bezier(0.31, -0.105, 0.43, 1.4);
+  transition: all 0.25s cubic-bezier(0.31, -0.105, 0.43, 1.4);
+}
+
+.button9 span,
+.button9 .icon {
+  display: block;
+  height: 100%;
+  text-align: center;
+  position: absolute;
+  top: 0;
+}
+.button9 span {
+  width: 72%;
+  line-height: inherit;
+  font-size: 22px;
+  color : white;
+  text-transform: uppercase;
+  left: 0;
+  -webkit-transition: all 0.25s cubic-bezier(0.31, -0.105, 0.43, 1.4);
+  transition: all 0.25s cubic-bezier(0.31, -0.105, 0.43, 1.4);
+}
+.button9 span:after {
+  content: '';
+  background-color: #ffffff;
+  width: 2px;
+  height: 70%;
+  position: absolute;
+  top: 15%;
+  right: -1px;
+}
+.button9 .icon {
+  width: 28%;
+  right: 0;
+  -webkit-transition: all 0.25s cubic-bezier(0.31, -0.105, 0.43, 1.4);
+  transition: all 0.25s cubic-bezier(0.31, -0.105, 0.43, 1.4);
+}
+.button9 .icon .fa {
+  font-size: 30px;
+  vertical-align: middle;
+  -webkit-transition: all 0.25s cubic-bezier(0.31, -0.105, 0.43, 1.4), height 0.25s ease;
+  transition: all 0.25s cubic-bezier(0.31, -0.105, 0.43, 1.4), height 0.25s ease;
+}
+.button9 .icon .fa-remove {
+  height: 36px;
+}
+.button9 .icon .fa-check {
+  display: none;
+}
+.button9.success span, .button9:hover span {
+  left: -72%;
+  opacity: 0;
+}
+.button9.success .icon, .button9:hover .icon {
+  width: 100%;
+}
+.button9.success .icon .fa, .button9:hover .icon .fa {
+  font-size: 32px;
+}
+.button9.success {
+  background-color: #ffffff;
+}
+.button9.success .icon .fa-remove {
+  display: none;
+}
+.button9.success .icon .fa-check {
+  display: inline-block;
+}
+.button9:hover {
+  opacity: .9;
+}
+.button9:hover .icon .fa-remove {
+  height: 46px;
+}
+.button9:active {
+  opacity: 1;
+}
+
+.button10 {
+  display: block;
+  background-color: #0099cc;
+  width: 30%;
+  height: 40px;
+  line-height: 40px;
+  margin-top:2890px;
+  margin-left: 2%;
+  color: #fff;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 5px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+  -webkit-transition: all 0.25s cubic-bezier(0.31, -0.105, 0.43, 1.4);
+  transition: all 0.25s cubic-bezier(0.31, -0.105, 0.43, 1.4);
+}
+
+
+.button10 span,
+.button10 .icon {
+  display: block;
+  height: 100%;
+  text-align: center;
+  position: absolute;
+  top: 0;
+}
+.button10 span {
+  width: 72%;
+  line-height: inherit;
+  font-size: 22px;
+  text-transform: uppercase;
+  left: 0;
+  -webkit-transition: all 0.25s cubic-bezier(0.31, -0.105, 0.43, 1.4);
+  transition: all 0.25s cubic-bezier(0.31, -0.105, 0.43, 1.4);
+}
+.button10 span:after {
+  content: '';
+  background-color: #ffffff;
+  width: 2px;
+  height: 70%;
+  position: absolute;
+  top: 15%;
+  right: -1px;
+}
+.button10 .icon {
+  width: 28%;
+  right: 0;
+  -webkit-transition: all 0.25s cubic-bezier(0.31, -0.105, 0.43, 1.4);
+  transition: all 0.25s cubic-bezier(0.31, -0.105, 0.43, 1.4);
+}
+.button10 .icon .fa {
+  font-size: 30px;
+  vertical-align: middle;
+  -webkit-transition: all 0.25s cubic-bezier(0.31, -0.105, 0.43, 1.4), height 0.25s ease;
+  transition: all 0.25s cubic-bezier(0.31, -0.105, 0.43, 1.4), height 0.25s ease;
+}
+.button10 .icon .fa-remove {
+  height: 36px;
+}
+.button10 .icon .fa-check {
+  display: none;
+}
+.button10.success span, .button10:hover span {
+  left: -72%;
+  opacity: 0;
+}
+.button10.success .icon, .button10:hover .icon {
+  width: 100%;
+}
+.button10.success .icon .fa, .button10:hover .icon .fa {
+  font-size: 32px;
+}
+.button10.success {
+  background-color: #27ae60;
+}
+.button10.success .icon .fa-remove {
+  display: none;
+}
+.button10.success .icon .fa-check {
+  display: inline-block;
+}
+.button10:hover {
+  opacity: .9;
+}
+.button10:hover .icon .fa-remove {
+  height: 46px;
+}
+.button10:active {
+  opacity: 1;
+}
+
+.button11 {
+  display: block;
+  background-color: #C03000;
+  width: 30%;
+  height: 40px;
+  line-height: 40px;
+  margin-top: 1940px;
+  margin-left: 37%;
+  color: #fffff;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 5px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+  -webkit-transition: all 0.25s cubic-bezier(0.31, -0.105, 0.43, 1.4);
+  transition: all 0.25s cubic-bezier(0.31, -0.105, 0.43, 1.4);
+}
+
+.button11 span,
+.button11 .icon {
+  display: block;
+  height: 100%;
+  text-align: center;
+  position: absolute;
+  top: 0;
+}
+.button11 span {
+  width: 72%;
+  line-height: inherit;
+  font-size: 22px;
+  color : white;
+  text-transform: uppercase;
+  left: 0;
+  -webkit-transition: all 0.25s cubic-bezier(0.31, -0.105, 0.43, 1.4);
+  transition: all 0.25s cubic-bezier(0.31, -0.105, 0.43, 1.4);
+}
+.button11 span:after {
+  content: '';
+  background-color: #ffffff;
+  width: 2px;
+  height: 70%;
+  position: absolute;
+  top: 15%;
+  right: -1px;
+}
+.button11 .icon {
+  width: 28%;
+  right: 0;
+  -webkit-transition: all 0.25s cubic-bezier(0.31, -0.105, 0.43, 1.4);
+  transition: all 0.25s cubic-bezier(0.31, -0.105, 0.43, 1.4);
+}
+.button11 .icon .fa {
+  font-size: 30px;
+  vertical-align: middle;
+  -webkit-transition: all 0.25s cubic-bezier(0.31, -0.105, 0.43, 1.4), height 0.25s ease;
+  transition: all 0.25s cubic-bezier(0.31, -0.105, 0.43, 1.4), height 0.25s ease;
+}
+.button11 .icon .fa-remove {
+  height: 36px;
+}
+.button11 .icon .fa-check {
+  display: none;
+}
+.button11.success span, .button11:hover span {
+  left: -72%;
+  opacity: 0;
+}
+.button11.success .icon, .button11:hover .icon {
+  width: 100%;
+}
+.button11.success .icon .fa, .button11:hover .icon .fa {
+  font-size: 32px;
+}
+.button11.success {
+  background-color: #ffffff;
+}
+.button11.success .icon .fa-remove {
+  display: none;
+}
+.button11.success .icon .fa-check {
+  display: inline-block;
+}
+.button11:hover {
+  opacity: .9;
+}
+.button11:hover .icon .fa-remove {
+  height: 46px;
+}
+.button11:active {
+  opacity: 1;
+}

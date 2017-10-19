@@ -1,0 +1,23 @@
+.w3-teal{
+background-color: black;
+}
+
+.w3-button w3-teal w3-xlarge{
+  background-color: black;
+}
+.w3-container{
+  background-color: black;
+}
+.w3-sidebar w3-bar-block w3-border-right{
+  background-color: black;
+}
+.w3-bar-item w3-large{
+  background-color: black;
+}
+.w3-bar-item w3-button{
+  background-color: black;
+}
+
+#mySidebar{
+  background-color: black;
+}

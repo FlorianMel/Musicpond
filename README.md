@@ -21,6 +21,10 @@ J-3 : Début d'apprentissage d'API/Modification et finalisation du site web
   - Finaliser la page top liste -> Florian Méloux
   - Apprentissage API/Utilisation API -> Florian Marcandelli 
   
-J-4 : Création API 
+J-4 : Création API/Recette 
+  - Recette : Corriger les bugs -> Florian Méloux
+  - API : Finaliser les bases de donnée et le début d'intégration d'API -> Florian Marcandelli 
 
 J-5 : MEL/Soutenance 
+ - Reccete : Finaliser la recette -> Florian Méloux
+ - API : Finaliser l'intégration d'API -> Florian Marcandelli

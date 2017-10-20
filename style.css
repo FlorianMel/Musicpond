@@ -23,13 +23,26 @@
 	margin-top: -100px;
 }
 
-#heart {
+.heart {
 	width: 10%;
 	margin-top: -8px;
 
 	}
 
+.lien{
+	color : black;
+	}
+i {
+	color: white ;
+	}
+h2{
+	 text-decoration: none;
+	 color: black;
+	}
 
+h4{
+	color : black;
+	}
 /* Principal */
 #menu {
         width: 100%;
